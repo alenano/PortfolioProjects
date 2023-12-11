@@ -31,7 +31,7 @@ From PortfolioProject..CovidDeaths
 order by 1,2
 
 
--- Lookiung at countries with highest infection rate compared to population
+-- Looking at countries with highest infection rate compared to population
 
 Select Location, population, MAX(total_cases) as HighestInfectionCount, MAX((total_cases/population)*100) as PercentPopulationInfected
 From PortfolioProject..CovidDeaths
